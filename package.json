@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "egg-bin test",
     "dev": "egg-bin dev"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "moment": "^2.29.4"
   },
   "devDependencies": {
-    "egg-bin": "^5.2.0"
+    "egg-bin": "^5.2.0",
+    "egg-mock": "^5.0.2"
   }
 }
