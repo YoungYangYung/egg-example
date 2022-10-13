@@ -1,0 +1,14 @@
+type News {
+    id: ID!
+    url: String
+    time: Int
+    title: String
+}
+
+# 定义查询对象
+type Query {
+    news(
+        # 查询参数
+        page: Int!
+    ): [News]
+}

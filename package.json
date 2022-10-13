@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dataloader": "^2.1.0",
     "egg": "^3.3.3",
+    "egg-graphql": "^2.8.0",
     "egg-view-nunjucks": "^2.3.0",
     "koa-is-json": "^1.0.0",
     "moment": "^2.29.4"
